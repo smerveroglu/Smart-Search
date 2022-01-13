@@ -1,5 +1,7 @@
+$nav-bg: hsl(250.9,18.9%,34.3%);
+
 .navbar {
-  background-color: hsl(250.9,18.9%,34.3%);
+  background-color:$nav-bg ;
   height: 80px;
   text-align: left;
 }
@@ -8,10 +10,9 @@
   margin-right: 20px;
 }
 input {
-  width: 70%;
-  background-color: hsl(250.9,18.9%,34.3%);
+  background-color: $nav-bg;
   padding: 0;
-  font-size: 14rem;
+  font-size: 1.25rem;
   color: darkgray;
   border: none;
   outline: none;

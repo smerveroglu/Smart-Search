@@ -1,9 +1,9 @@
 <template>
   <div class="searchBar">
-    <header class="navbar sticky-top">
-      <nav class="w-100 ms-5">
+    <header class="navbar sticky-top flex align-items-center">
+      <nav class="w-full ml-5">
         <font-awesome-icon icon="search" id="searchIcon" />
-        <input
+        <input class="w-8"
           placeholder="SEARCH (Client Name / Policy Number)"
           v-model="input"
         />
