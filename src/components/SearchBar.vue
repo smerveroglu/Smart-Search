@@ -14,6 +14,7 @@
 </template>
 <script>
 import List from "./List.vue";
+import user from "../user.json";
 export default {
   name: "SearchBar",
   components: {
@@ -22,19 +23,10 @@ export default {
   data() {
     return {
       input: "",
-      data: [],
+      data: user,
       filteredData: [],
       key: "",
     };
-  },
-
-  created() {
-    fetch("../user.json")
-      .then((response) => response.json())
-      .then((data) => (this.data = data))
-      .catch((error) => {
-        console.log(error);
-      });
   },
   methods: {
     getPerson() {
