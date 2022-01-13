@@ -24,11 +24,12 @@ export default {
   color: #2c3e50;
 }
 
-html, body {
-    height:100%; /*both html and body*/
-    padding: 0;
+html,
+body {
+  height: 100%; /*both html and body*/
+  padding: 0;
 }
 body {
-    margin: 0; /*reset default margin*/
+  margin: 0; /*reset default margin*/
 }
 </style>
