@@ -42,7 +42,6 @@ export default {
           .toLowerCase()
           .includes(this.input.toLowerCase());
       });
-      console.log(this.filteredData);
     },
   },
 
