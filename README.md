@@ -19,6 +19,13 @@ npm run build
 ```
 npm run lint
 ```
+### Unit Test
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+npm run test:unit
+```
+
+### Generates code coverage report
+```
+npm run test:unit --watch
+```

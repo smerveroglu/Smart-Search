@@ -2,10 +2,11 @@
   <div class="searchBar">
     <header class="navbar sticky-top flex align-items-center">
       <nav class="w-full ml-5">
-        <font-awesome-icon icon="search" id="searchIcon" />
+        <font-awesome-icon :icon="['fas','search']" id="searchIcon" />
         <input
           class="w-8"
           placeholder="SEARCH (Client Name / Policy Number)"
+          name="searchInput"
           v-model="input"
         />
       </nav>
